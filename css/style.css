@@ -33,21 +33,39 @@ body{
     background: url("https://images.alphacoders.com/605/thumb-1920-605743.jpg");
 }
 
-.button{
+.button1{
     display: inline-block;
     padding: 12px 20px;
     background-color: rgb(0, 0, 0);
     color: rgb(108, 201, 193);
     transition: background-color 0.3s ease-in-out;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 30px;
     font-weight: bold;
-     position: absolute;
+    position: absolute;
     bottom: 20px;
     right: 20px;
 }
 
-.contenedor{
-    position: relative;
+.button2{
+    display: inline-block;
+    padding: 12px 30px;
+    background-color:rgb(0, 0, 0);
+    color: lightcoral;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+
 }
+
+.contenedor-botones{
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+}
+
 
